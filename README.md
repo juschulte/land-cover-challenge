@@ -2,6 +2,9 @@
 
 Example code for the UoE land cover time series challenge with Space Intelligence.
 
+<img width="480" alt="bolivia-screenshot" src="https://github.com/KBodolai/land-cover-challenge/assets/69843715/32bfeb63-9e2a-4540-9e31-a275177112da">
+
+
 ## Set up
 
 The `example_notebooks` has most of what you need to get started. It will show basic information about the data we are going to give you and how to access it and work with it in the microsoft planetary computer. 
