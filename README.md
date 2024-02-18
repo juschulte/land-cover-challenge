@@ -2,8 +2,19 @@
 
 Example code for the UoE land cover time series challenge with Space Intelligence.
 
+
+## Study area - Bolivia
+
 <img width="200" alt="bolivia-screenshot" src="https://github.com/KBodolai/land-cover-challenge/assets/69843715/32bfeb63-9e2a-4540-9e31-a275177112da">
 
+We propose you look at [Bolivia](https://www.fao.org/forestry/country/57478/en/bol/), a beautiful country with a diverse range of ecosystems. It's forests are mostly tropical deciduous, so the signal measured by the sensors will vary seasonally in time. Some areas have also experienced heavy deforestation, with Global Forest Watch estimating a [primary forest loss of over 9% in the past 20 years](https://www.globalforestwatch.org/dashboards/country/BOL).
+
+There's a lot of questions you can potentially answer after mapping land cover, a few of these to get you started are:
+
+1. Where is deforestation happening? 
+2. What is the trend in the past years, has it been reduced or is it speeding up?
+3. What are the main drivers of deforestation?
+4. How could you use the historical data to inform policy?
 
 ## Set up
 
@@ -55,15 +66,4 @@ token = os.environ['SAS_TOKEN']
 `.env` is ignored in `.gitignore` so you don't accidentally push the private token out in the open.
 
 
-
-## Study area - Bolivia
-
-We propose you look at [Bolivia](https://www.fao.org/forestry/country/57478/en/bol/), a beautiful country with a diverse range of ecosystems. It's forests are mostly tropical deciduous, so the signal measured by the sensors will vary seasonally in time. Some areas have also experienced heavy deforestation, with Global Forest Watch estimating a [primary forest loss of over 9% in the past 20 years](https://www.globalforestwatch.org/dashboards/country/BOL).
-
-There's a lot of questions you can potentially answer after mapping land cover, a few of these to get you started are:
-
-1. Where is deforestation happening? 
-2. What is the trend in the past years, has it been reduced or is it speeding up?
-3. What are the main drivers of deforestation?
-4. How can we use the data to inform policy makers and help them make better decisions?
 
